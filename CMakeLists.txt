@@ -59,10 +59,4 @@ install(TARGETS gt_pose_broadcaster
   INCLUDES DESTINATION include
 )
 
-install(DIRECTORY config DESTINATION share/${PROJECT_NAME})
-install(DIRECTORY launch DESTINATION share/${PROJECT_NAME})
-install(DIRECTORY maps DESTINATION share/${PROJECT_NAME})
-install(DIRECTORY meshes DESTINATION share/${PROJECT_NAME})
-install(DIRECTORY urdf DESTINATION share/${PROJECT_NAME})
-
 ament_package()
