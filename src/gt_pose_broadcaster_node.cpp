@@ -13,6 +13,6 @@
 // limitations under the License.
 
 
-#include "tb2_system/gt_pose_broadcaster_node.hpp"
+#include "optitrack_pose_broadcaster/gt_pose_broadcaster_node.hpp"
 #include "rclcpp_components/register_node_macro.hpp"
 RCLCPP_COMPONENTS_REGISTER_NODE(tb2_system::GTPoseBroadcaster)
